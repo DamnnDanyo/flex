@@ -1,11 +1,23 @@
 .container {
     background-color: aqua;
     border: 2px solid red;
+    display: flex;
     
 }
+
+.container ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo {
+    font-weight: bolder;
+}
+
 
 .container li {
     background-color: white;
     border: 2px solid red;
     list-style-type: none;
+
 }
