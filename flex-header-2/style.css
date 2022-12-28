@@ -12,6 +12,8 @@
 
 .logo {
     font-weight: bolder;
+    font-style: italic;
+    font-size: 27px;
 }
 
 
@@ -19,5 +21,6 @@
     background-color: white;
     border: 2px solid red;
     list-style-type: none;
+
 
 }
