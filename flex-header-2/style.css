@@ -2,14 +2,16 @@
     background-color: aqua;
     border: 2px solid red;
     display: flex;
+    justify-content: flex-end;
+    margin-left: 8px;
     
 }
 
 .container ul {
     display: flex;
     justify-content: flex-start;
-    margin-left: 8px;
-    margin-right: 8px;
+    margin-right: 55%;
+    column-gap: 10px;
 }
 
 .logo {
@@ -26,6 +28,11 @@
     list-style-type: none;
     justify-content: center;
     align-items: center;
+    min-width: 75px;
 
 
+}
+
+.notification {
+    display: flex;
 }
