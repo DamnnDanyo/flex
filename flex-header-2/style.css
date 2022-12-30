@@ -7,21 +7,19 @@ body {
     border: 2px solid red;
     display: flex;
     justify-content: flex-end;
-    min-width: 400px;
-    flex: 1 1 auto;
-    
-    
+    min-width: 560px;
+    flex: auto;
+
 }
 
 .container ul {
     display: flex;
     flex-grow: 0;
-    flex-shrink: 1;
     justify-content: flex-start;
     margin-right: 55%;
     margin-left: 8px;
     column-gap: 16px;
-    min-width: 0;
+    min-width: 0px;
     padding: 0px;
     
 }
