@@ -1,24 +1,33 @@
+
+
 .container {
     background-color: aqua;
     border: 2px solid red;
     display: flex;
     justify-content: flex-end;
-    
+    min-width: 400px;
+
     
 }
 
 .container ul {
     display: flex;
+    flex-grow: 0;
+    flex-shrink: 1;
     justify-content: flex-start;
     margin-right: 55%;
     margin-left: 8px;
     column-gap: 16px;
+    min-width: 0;
+    padding: 0px;
+    
 }
 
 .logo {
     font-weight: bolder;
     font-style: italic;
     font-size: 27px;
+      
 }
 
 
@@ -26,6 +35,7 @@
     background-color: white;
     border: 2px solid red;
     display: flex;
+    flex: 0 1 auto;
     list-style-type: none;
     justify-content: center;
     align-items: center;
@@ -38,5 +48,19 @@
     display: flex;
     background-color: white;
     border: 2px solid red;
+    margin-right: auto;
+    
+
+}
+
+.circle {
+    min-width: 50px;
+    min-height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    align-self: center;
+    margin-left: 1%;
     margin-right: 8px;
+    flex: 1 1 auto;
 }
