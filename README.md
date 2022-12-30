@@ -1,1 +1,1 @@
-# flex
+collection of exercises working on flexbox within CSS from The Odin Project.
