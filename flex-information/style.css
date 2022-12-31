@@ -12,19 +12,20 @@
     min-width: 200px;
     min-height: 400px;
     
+    
 }
 
-.container > * {
-    display: flex;
-    flex: 1 1 100px;
-    margin: 0;
+.container > div{
+    background-color: chartreuse;
 }
 
-.container > img {
-    flex-shrink: 1;
-    flex-grow: 1;
-    flex-basis: auto;
-    width: 200px;
+img {
+    width: 200px;  
     height: 200px;
-   
+}
+
+.text {
+    order: 2;
+    text-align: center;
+
 }
