@@ -3,22 +3,25 @@
     text-align: center;
     font-weight: bold;
     font-size: 38px;
-
+    margin-bottom: 32px;
 }
 
 
 .container {
     display: flex;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */  /* For Debugging */
     min-width: 200px;
     min-height: 400px;
     column-gap: 52px;
+    justify-content: center;
     
     
 }
 
 .container > div{
-    background-color: chartreuse;
+    /* background-color: chartreuse; */  /* For Debugging */
+    justify-content: center;
+    width:  200px;
 }
 
 img {
@@ -29,5 +32,6 @@ img {
 .text {
     order: 2;
     text-align: center;
+    flex-wrap: wrap;
 
 }
