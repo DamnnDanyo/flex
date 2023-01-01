@@ -16,6 +16,10 @@ body {
   
 }
 
+.modal div {
+  display: flex;
+}
+
 
 .modal {
   background: white;
@@ -26,6 +30,10 @@ body {
   align-items: flex-start;
   justify-content: space-evenly;
   padding: 10px;
+}
+
+.container-2 {
+  flex-wrap: wrap;
 }
 
 
