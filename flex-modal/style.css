@@ -27,15 +27,15 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
+  flex: 0 1 auto;
   align-items: flex-start;
   justify-content: space-evenly;
-  padding: 10px;
+  padding: 20px;
 }
 
 .container-2 {
   flex-wrap: wrap;
 }
-
 
 .icon {
   color: royalblue;
@@ -49,7 +49,8 @@ body {
   flex: 0 0 auto;
   align-items: center;
   justify-content: center;
-  
+  align-self: flex-end;
+  margin-right: 17px;
 }
 
 .close-button {
@@ -68,14 +69,14 @@ body {
 button {
   padding: 8px 16px;
   border-radius: 8px;
-  align-self: flex-end;
-  
+  align-self: flex-end;  
 }
 
 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin-right: 7px;
 }
 
 button.cancel {
