@@ -5,6 +5,15 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+    display: flex;
+    border: 2px solid red;
+    background-color: aqua;
+
 }
 
 img {
