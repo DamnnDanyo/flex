@@ -14,12 +14,35 @@ body {
     display: flex;
     border: 2px solid red;
     background-color: aqua;
-    
+}
+
+.footer {
+    display: flex;
+    border: 2px solid red;
+    background-color: aqua;
+   
 }
 
 .left-links {
+    display: flex;
     margin-right: auto;
     list-style: none;
+    justify-content: center;  
+    padding:  10px;
+    column-gap: 10px;
+}
+
+.right-links {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 10px;
+    column-gap: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
 }
 
 img {
