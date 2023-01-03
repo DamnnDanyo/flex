@@ -7,13 +7,19 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
+  
 }
 
-header {
+.header {
     display: flex;
     border: 2px solid red;
     background-color: aqua;
+    
+}
 
+.left-links {
+    margin-right: auto;
+    list-style: none;
 }
 
 img {
